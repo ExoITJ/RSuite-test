@@ -13,11 +13,11 @@ export const App: FC = () => {
 
   return (
     <CustomProvider theme={isDarkTheme}>
-      <Container>
+      <Container style={{ position: "fixed", width: "100%", height: "100%" }}>
         <MySidebar />
         <Container>
           <MyHeader />
-          <Content>
+          <Content style={{ overflow: "auto", height: "100%" }}>
             <AppContainer />
           </Content>
           <MyFooter />
