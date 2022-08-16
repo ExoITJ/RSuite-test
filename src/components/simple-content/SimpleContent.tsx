@@ -8,7 +8,7 @@ type SimpleContentProps = {
 
 export const SimpleContent: FC<SimpleContentProps> = ({ header, children }) => {
   return (
-    <div style={{ padding: "20px", height: "100%" }}>
+    <div style={{ padding: "20px" }}>
       <Helmet>
         <title>{header}</title>
       </Helmet>

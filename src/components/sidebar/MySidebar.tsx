@@ -22,7 +22,10 @@ export const MySidebar: FC = () => {
     <Sidebar
       width={sidebarExpand ? 250 : 0}
       collapsible
-      style={{ display: "flex", flexDirection: "column" }}
+      style={{
+        display: "flex",
+        flexDirection: "column"
+      }}
     >
       <Sidenav.Header>
         <div
